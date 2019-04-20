@@ -72,6 +72,8 @@ public class CreateNewOwnerTest extends BaseTest {
 		Pet pet = addPet();
 		validateData(owner, pet);
 		
+		System.out.println("tested");
+		
   
 	}
 		   
