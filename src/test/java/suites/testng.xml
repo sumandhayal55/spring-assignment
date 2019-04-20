@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UI demo suite">
+	<test name="UI demo Test" verbose="2">
+		<classes>
+			<class name="com.ui.demo.CheckExistingOwnerTest" />
+			<class name="com.ui.demo.CheckImageTest" />
+			<class name="com.ui.demo.VeterinariansTest" />
+			<class name="com.ui.demo.CreateNewOwnerTest" />
+		</classes>
+	</test>
+</suite>
