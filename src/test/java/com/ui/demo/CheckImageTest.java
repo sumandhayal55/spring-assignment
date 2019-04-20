@@ -23,6 +23,7 @@ public class CheckImageTest extends BaseTest {
 		boolean imagePresent = homePage.isImagePresent(imageFile, driver);
 
 		Assert.assertEquals(imagePresent, true);
+		System.out.println("tested");
 
 	}
 
